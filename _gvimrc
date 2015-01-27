@@ -1,0 +1,9 @@
+set nobackup
+set background=dark
+set columns=200
+set lines=57
+"colorscheme solarized
+"colorscheme hybrid
+"colorscheme jellybeans
+"colorscheme molokai
+set transparency=4

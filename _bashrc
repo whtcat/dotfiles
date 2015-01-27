@@ -1,0 +1,18 @@
+##### man日本語化
+alias man='env LANG=ja_JP.UTF-8 /usr/local/bin/jman'
+
+##### MacVim
+export EDITOR=/Apprications/MacVim.app/Contents/MacOS/Vim
+alias mvim='env LANG=ja.UTF-8 /Applications/MacVim.app/Contents/MacOS/mvim "$@"'
+alias vim='env LANG=ja.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+
+##### エイリアスそれぞれ
+alias lsa="ls -a"
+alias lsla="ls -la"
+alias lsl="ls -l"
+alias cdp="cd /Users/blkcat/OneDrive/Program"
+alias cdpy="cd /Users/blkcat/OneDrive/Program/pyworks"
+alias cdpy3="cd /Users/blkcat/OneDrive/Program/pyworks/Python3.x/"
+alias cdpy2="cd /Users/blkcat/OneDrive/Program/pyworks/Python2.x/"
+alias cp="cp -i"
+alias blender='/Applications/blender/blender.app/contents/MacOS/blender'

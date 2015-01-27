@@ -1,0 +1,25 @@
+##### Python関係 #####
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+PATH=$PATH:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin
+export PATH
+
+##### virtualenvを設定
+export WORKON_HOME=~/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
+##### .bashrcを読み込む #####
+if [ -f ~/.bashrc ] ; then
+    . ~/.bashrc
+fi
+
+#### cdffでFinder上の最前面フォルダにcd ####
+function ff { osascript -e 'tell application "Finder"'\
+    -e "if (${1-1} <= (count Finder windows)) then"\
+    -e "get POSIX path of (target of window ${1-1} as alias)"\
+    -e 'else' -e 'get POSIX path of (desktop as alias)'\
+    -e 'end if' -e 'end tell'; };\
+
+function cdff { cd "`ff $@`"; };
+
