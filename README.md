@@ -1,3 +1,6 @@
 # dotfiles
-# zshrc
-# vimrc
+bash_profile
+bashrc
+gvimrc
+vimrc
+zshrc

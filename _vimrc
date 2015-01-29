@@ -6,10 +6,11 @@
 filetype off
 filetype plugin indent off
   
-"########################
-"##### 非互換モード #####
-"########################
-set nocompatible
+"######################
+"##### システム系 #####
+"######################
+set nocompatible "非互換モード
+set nobackup "「~」ファイルを作成しない
 
 "###################
 "##### 表示系 ######
@@ -108,10 +109,14 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'ujihisa/unite-colorscheme'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'davidoc/taskpaper.vim'
-NeoBundle 'nanotech/jellybeans.vim' "カラースキーム(jellybeans)
-NeoBundle 'altercation/vim-colors-solarized' "カラースキーム(solarized)
-NeoBundle 'tomasr/molokai' "カラースキーム(molokai)
-NeoBundle 'croaker/mustang-vim' "カラースキーム(mustang)
+NeoBundle 'yuratomo/w3m.vim'
+let g:w3m#homepage = "http://www.google.co.jp/" "w3mのカレントホームページ
+let g:w3m#external_browser = 'safari' "外部ブラウザの指定
+" カラースキーム
+NeoBundle 'nanotech/jellybeans.vim' "(jellybeans)
+NeoBundle 'altercation/vim-colors-solarized' "(solarized)
+NeoBundle 'tomasr/molokai' "(molokai)
+NeoBundle 'croaker/mustang-vim' "(mustang)
 hi SpellBad ctermfg=white ctermbg=darkred "エラー表示のカラー
 hi Search ctermfg=white ctermbg=black "検索結果表示のカラー
 "NeoBundle 'itchyny/lightline.vim' "ステータスラインのカラースキームを変更(wombat)

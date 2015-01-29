@@ -83,6 +83,7 @@ alias cdpy3="cd /Users/blkcat/OneDrive/Program/pyworks/Python3.x/"
 alias cdpy2="cd /Users/blkcat/OneDrive/Program/pyworks/Python2.x/"
 alias cp="cp -i"
 alias blender='/Applications/blender/blender.app/contents/MacOS/blender'
+alias gtop='glances'
 
 # cdffでFinder上の最前面フォルダにcd
 function ff { osascript -e 'tell application "Finder"'\

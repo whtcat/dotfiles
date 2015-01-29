@@ -6,4 +6,6 @@ set lines=57
 "colorscheme hybrid
 "colorscheme jellybeans
 "colorscheme molokai
-set transparency=4
+colorscheme abra
+set guifont=Ricty\ Discord\ Regular:h14
+set transparency=10
