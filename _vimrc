@@ -1,8 +1,3 @@
-"----- Top -----
-
-"#########################################
-"##### filetypeを一旦OFF(最下行でON) #####
-"#########################################
 filetype off
 filetype plugin indent off
   
@@ -193,9 +188,4 @@ NeoBundle 'https://bitbucket.org/ns9tks/vim-fuzzyfinder'
 NeoBundle 'https://bitbucket.org/ns9tks/vim-l9/' 
 NeoBundle 'scrooloose/nerdtree'
 
-"##########################################
-"##### 頭で無効化したfiletypeを有効化 #####
-"##########################################
 filetype plugin indent on
-
-"----- END -----
