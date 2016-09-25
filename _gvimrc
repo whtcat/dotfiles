@@ -2,10 +2,18 @@ set nobackup
 set background=dark
 set columns=200
 set lines=57
+set guioptions-=m
+set guioptions-=T
+set guioptions-=r
+set guioptions-=R
+set guioptions-=l
+set guioptions-=T
+set guioptions-=b
 "colorscheme solarized
 "colorscheme hybrid
 "colorscheme jellybeans
 "colorscheme molokai
-colorscheme abra
-set guifont=Ricty\ Discord\ Regular:h14
-set transparency=10
+colorscheme atom-dark
+"colorscheme abra
+set guifont=Ricty\ Diminished\ Discord\ Regular:h11
+autocmd GUIEnter * set transparency=250
